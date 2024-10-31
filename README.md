@@ -1,6 +1,6 @@
 # Login-and-Signup-pages
 
-!
+![alt text](https://github.com/Ojesh-Mundale/Login-and-Signup-pages/blob/78facbc974d21bdf764bce4df6d8071185887868/login-page.png)
 
 This project is a simple web-based Login and Signup page, created with HTML, CSS, and JavaScript. It allows users to either log in if they already have an account or sign up to create a new account.
 
