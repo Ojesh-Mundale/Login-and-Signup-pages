@@ -9,7 +9,7 @@ Login Page: Users can enter their username and password to log in.
 Signup Page: New users can create an account by providing a username, email, and password.
 Responsive Design: The pages are designed to work on various screen sizes.
 Client-Side Validation: Basic validation is applied to ensure that users enter valid data.
-
+![alt text](https://github.com/Ojesh-Mundale/Login-and-Signup-pages/blob/ab2393590ec66525b48e1bf5460f67bddb20eac5/Sign-up%20page.png)
 **Signup Page Details**
 The signup page allows new users to create an account by entering their information. The design is straightforward, with fields that include basic client-side validation.
 
