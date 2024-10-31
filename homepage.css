@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: x-large;
+}
+
+nav ul{
+    display: inline;
+    margin: 0;
+    list-style-type: none;
+    padding:0;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    margin: 0 60px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: -95px;
+    width: 100%;
+}
+nav ul a:hover{
+ color:rgb(255, 166, 0)
+}
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 20px; /* Add some margin to the right */
+    margin-right: 20px;
+}
+.line {
+    width: 25px; /* Width of the lines */
+    height: 3px; /* Height of the lines */
+    background-color: white; /* Color of the lines */
+    margin: 3px 0; /* Space between the lines */
+}
+.header-content {
+    display: flex; /* Use flexbox for the inner content */
+    align-items: center; /* Center items vertically */
+}
+.hamburger-menu a:hover{
+    color:rgb(255, 166, 0)
+}

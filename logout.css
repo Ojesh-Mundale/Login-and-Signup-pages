@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background for logout page */
+    text-align: center; /* Center align text */
+    font-size: 30px;
+}
+
+header {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50; /* Green footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

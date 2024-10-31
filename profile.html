@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <header>
+        <h1>User Profile</h1>
+        <nav>
+            <ul>
+                <a href="home.html">Home</a>
+                <a href="profile.html">Profile</a>
+                <a href="settings.html">Settings</a>
+                <a href="logout.html">Logout</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <h2>Your Profile</h2>
+            <div class="profile-info">
+                <img src="path/to/profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+                <h3>Username: JohnDoe</h3>
+                <p>Email: johndoe@example.com</p>
+                <p>Bio: A brief description about yourself goes here.</p>
+            </div>
+        </section>
+
+        <section class="edit-profile-section">
+            <h2>Edit Profile</h2>
+            <form action="update_profile.php" method="post" enctype="multipart/form-data">
+                <label for="photo">Change Profile Photo:</label>
+                <input type="file" id="photo" name="photo"><br><br>
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="JohnDoe"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="johndoe@example.com"><br><br>
+                
+                <label for="bio">Bio:</label><br>
+                <textarea id="bio" name="bio">A brief description about yourself goes here.</textarea><br><br>
+                
+                <input type="submit" value="Update Profile">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Our Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

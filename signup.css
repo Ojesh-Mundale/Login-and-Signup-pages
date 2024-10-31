@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("college.jpg.jpg");
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container1 {
+    background: white;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 380px;
+}
+
+.signup-form h1, .login-form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.signup-form label, .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signup-form input, .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.signup-form button, .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-form button:hover, .login-form button:hover {
+    background-color: #004d40;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
