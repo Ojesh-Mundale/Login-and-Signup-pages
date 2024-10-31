@@ -10,6 +10,18 @@ Signup Page: New users can create an account by providing a username, email, and
 Responsive Design: The pages are designed to work on various screen sizes.
 Client-Side Validation: Basic validation is applied to ensure that users enter valid data.
 
+**Signup Page Details**
+The signup page allows new users to create an account by entering their information. The design is straightforward, with fields that include basic client-side validation.
+
+**Features of Signup Page**
+Form Fields:
+
+Username: Allows alphanumeric usernames, with restrictions on length and allowed characters.
+
+Email: Validates email format to ensure a correctly formatted email address.
+
+Password: Requires a strong password with a minimum length and, optionally, specific characters (like uppercase letters, numbers, or symbols).
+
 **Technologies Used**
 
 **HTML**: Structure of the pages.
